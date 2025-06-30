@@ -1,2 +1,2 @@
-# password-manager
-Author-Satyabrata Champati 
+mx-auto -margin center
+px-4 -padding 4px
