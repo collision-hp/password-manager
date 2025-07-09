@@ -3,31 +3,36 @@
 }
 body{
   justify-content: center;
-  background-image: url("/public/passman.jpg");
+  background-image: url("/public/passman.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height:90vh;
+  min-height:150vh;
 }
 .logo{
-  font-size: 24px;
-  max-width: 140px;
-  font-weight: bold;
+  width: 220px;
+  padding-top: 10px;
 }
 .inpbox{
   border-radius: 20px;
-  padding: 8px;
-  width: 600px;
+  padding: 6px;
+  width: 510px;
   display: flex;
-  align-items: center;
   text-align: center;
   font-weight: bold;
-  font-size: large;
-  box-shadow: 0 3px 30px rgba(206, 34, 83, 0.293); 
+  font-size: 20px;
+  box-shadow: 0 3px 30px rgba(11, 180, 157, 0.293); 
   outline: none;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.701);
 }
 .inpbox:hover{
   box-shadow: none;
+  background-color: rgba(232, 239, 236, 0);
+  
+}
+.inpbox:hover::placeholder{
+  color:rgb(255, 255, 255);
 }
 .gitlogo{
   padding-right: 30px;
@@ -37,15 +42,24 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(65, 98, 216);
+  background: rgb(6, 138, 87);
   border-radius: 20px;
-  padding: 10px;
+  padding: 6px;
+  font-size: 20px;
   margin-top: 15px;
   margin-left: auto;
   margin-right: auto;
-  width: fit-content;
+  width: 130px;
   font-weight: bold;
+  
 }
 .savebtn:hover{
-  background-color: rgb(87, 126, 164);
+  background-color: rgba(0, 0, 0, 0.701);
+  font-size: 21px;
+}
+.savebtn .lrd{
+  width: 34px;   /* Increase or decrease as needed */
+  height: 33px;
+  margin-right: 3px; /* spacing between icon and text */
+  vertical-align: middle;
 }
