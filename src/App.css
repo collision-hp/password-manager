@@ -7,7 +7,7 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height:120vh;
+  min-height:120; /*to adjust the scrolling size of page*/ 
 }
 .logo{
   width: 220px;
@@ -42,7 +42,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(6, 138, 87);
+  background: rgb(7, 128, 81);
   border-radius: 20px;
   padding: 6px;
   font-size: 20px;
@@ -62,4 +62,7 @@ body{
   height: 33px;
   margin-right: 3px; /* spacing between icon and text */
   vertical-align: middle;
+}
+.tbody{
+  background-color:rgba(0, 0, 0, 0.701);
 }
