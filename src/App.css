@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+body {
+  justify-content: center;
+  background-image: url("/public/passman2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  min-height: fit-content;
+  color: #94a3b8;  /* make all text white by default */
+}
+.logo {
+  width: 220px;
+  padding-top: 10px;
+}
+.inpbox {
+  border-radius: 20px;
+  padding: 6px;
+  width: 510px;
+  display: flex;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  box-shadow: 0 3px 30px rgba(11, 180, 157, 0.189);
+  outline: none;
+  color: #94a3b8; 
+  background-color: rgba(199, 123, 141, 0.267);
+}
+.inpbox:hover {
+  box-shadow: none;
+  background-color: rgba(232, 239, 236, 0);
+}
+.inpbox:hover::placeholder {
+  color: rgb(255, 255, 255);
+}
+.gitlogo {
+  padding-right: 30px;
+  max-width: 170px;
+}
+.eyeicon {
+  position: absolute;
+  right: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #6b7280;
+}
+
+.savebtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(7, 128, 81);
+  border-radius: 20px;
+  padding: 6px;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 130px;
+  font-weight: bold;
+}
+.savebtn:hover {
+  background-color: rgba(0, 0, 0, 0.701);
+  font-size: 21px;
+}
+.savebtn .lrd {
+  width: 34px; /* Increase or decrease as needed */
+  height: 33px;
+  margin-right: 3px; /* spacing between icon and text */
+  vertical-align: middle;
+}
+.viewbtn {
+  display: flex;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  background: #94a3b8; 
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 59px;
+  margin-left: auto;
+  margin-right: auto;
+  width: justify;
+  font-weight: bold;
+}
+.viewbtn:hover{
+  color: #94a3b8; 
+  background-color: black;
+  font-size: 21px;
+}
