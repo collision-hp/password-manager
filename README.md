@@ -11,6 +11,7 @@ A simple and secure **Password Manager** built with **React** and **Tailwind CSS
 - 📋 **Copy credentials** to clipboard with one click.  
 - ✏️**Edit** to edit the Password.
 - 🗑️**Delete** to delete all the credentials.
+- 🔗CRUD Operations - Tested using **PostMan**.
 - 🎨 Clean, responsive UI powered by **Tailwind CSS**.  
 - ⚡ Built with **React** for a smooth and interactive experience.  
 
@@ -19,19 +20,23 @@ A simple and secure **Password Manager** built with **React** and **Tailwind CSS
 ## 🛠️ Tech Stack  
 
 - **Frontend:** React, JSX, CSS, Tailwind CSS  
-- **Build Tools:** PostCSS  
+- **Backend:** Node ,Express
+- **Testing:** PostMan
 - **Package Manager:** npm  
 
 ---
+## To run the code 
+`node server.js`
+`npm start`
+Get to the backend directory in terminal and connect to the server.
+
+
 
 HTML <input type="password" /> hides input as dots
 HTML <input type="text" /> shows input as plain text
 
 
 
-to run the code 
-get to the backend directory in terminal and connect to the server by 
-`node server.js`
 
-then run the code by 
-`npm start`
+
+
