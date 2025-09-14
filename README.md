@@ -24,18 +24,6 @@ A simple and secure **Password Manager** built with **React** and **Tailwind CSS
 
 ---
 
-
-
-
-
-
-
-
-
-mx-auto -margin center
-px-4 -padding 4px
-
-
 HTML <input type="password" /> hides input as dots
 HTML <input type="text" /> shows input as plain text
 
