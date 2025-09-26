@@ -26,9 +26,11 @@ A simple and secure **Password Manager** built with **React** and **Tailwind CSS
 
 ---
 ## To run the code 
+in terminal
 `
 node server.js
 `
+in vs code
 `
 npm start
 `
