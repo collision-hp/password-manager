@@ -58,7 +58,7 @@ const Manager = () => {
 
   return (
     <div className="py-24">
-      <h1 className="text-slate-400 text-5xl font-serif">⟪ PassMan ⟫</h1>
+      <h1 className="text-slate-400 text-5xl font-serif">PassMan</h1>
       <p className="text-slate-400 text-xl">your personal password manager</p>
       <div className="flex flex-col p-4 items-center">
         <div className="flex flex-col gap-8 py-4">
