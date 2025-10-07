@@ -26,23 +26,15 @@ A simple and secure **Password Manager** built with **React** and **Tailwind CSS
 
 ---
 ## To run the code 
-<<<<<<< HEAD
 in terminal
 `
 node server.js
 `
 in vs code
 `
-=======
-```
-node server.js
-```
-```
->>>>>>> c9f1784d5733c636b4406c120a447522d86c1d6e
 npm start
-```
+`
 Get to the backend directory in terminal and connect to the server.
-
 
 
 HTML <input type="password" /> hides input as dots
