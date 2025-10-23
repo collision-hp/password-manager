@@ -148,5 +148,4 @@ const Credential = () => {
     </div>
   );
 };
-
 export default Credential;
